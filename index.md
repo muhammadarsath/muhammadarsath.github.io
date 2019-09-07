@@ -1,15 +1,18 @@
 ## Portfolio
+
 ---
 
 ### Interests
 - Hardware Security
 - Power Side-channel Analysis
 - Learning Algorithms
+
 ---
 
 ### Education
 - M.S (by Research) at Indian Institute of Technology Madras
 - B.E (CSE) at Sri Krishna College of Engineering and Technology
+
 ---
 
 ### Projects
@@ -28,3 +31,4 @@ Proposed an attack model to transfer the information from an air-gapped network 
 Tags: Covert Channel, Smart Bulb Reverse Engineering, Image processing, NLP Error Correction
 </p>
 
+---
