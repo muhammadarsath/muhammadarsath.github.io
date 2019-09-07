@@ -1,5 +1,5 @@
 ## Muhammad Arsath K F 
-Keywords: arsath, muhammad, muhammad arsath iitm, risc v chennai, research scholar
+tags: arsath iitm, muhammad arsath iitm, risc v chennai, research scholar iitm, rise iitm
 email: muhammadarsath@gmail.com
 email: cs16s035@smail.iitm.ac.in
 linkedin: https://www.linkedin.com/in/muhammadarsath/
