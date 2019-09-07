@@ -20,7 +20,8 @@ Tags: Power Side-channel, Microprocessor Security, Leakage Estimation
     }
   }, 100);
 </script>
-<!--img src="images/dummy_thumbnail.jpg?raw=true"/-->
+
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
