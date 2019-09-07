@@ -13,6 +13,18 @@ Tags: Power Side-channel, Microprocessor Security, Leakage Estimation
 <div>
 <iframe width="450px" height="300px" src="https://www.youtube.com/embed/3oYC9le-jAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<div width="560px" height="315px" style="position: static; clear: both; width: 560px; height: 315px;">&nbsp;<div style="position: relative"><img id="vidimg" width="560px" height="315px" src="" style="position: absolute; top: 0; left: 0; cursor: pointer; pointer-events: none; z-index: 2;" /><iframe id="unlocked-video" style="position: absolute; top: 0; left: 0; z-index: 1;" src="https://www.youtube.com/embed/3oYC9le-jAc" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></div>
+<script type="application/javascript">
+  // Adapted from https://stackoverflow.com/a/32138108
+  var monitor = setInterval(function(){
+    var elem = document.activeElement;
+    if(elem && elem.id == 'unlocked-video'){
+      document.getElementById('vidimg').style.display='none';
+      clearInterval(monitor);
+    }
+  }, 100);
+</script>
 <!--img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
