@@ -1,7 +1,17 @@
 ## Portfolio
 
 ---
+### Interests
+- Hardware Security
+- Power Side-channel Analysis
+- Learning Algorithms
 
+---
+### Education
+- M.S (by Research) at Indian Institute of Technology Madras
+- B.E (CSE) at Sri Krishna College of Engineering and Technology
+ 
+---
 ### Information Security
 
 [Framework for Comprehensive Side-channel Evaluation of a Microprocessor](/pdf/1000-19.07.18-Muhammad-Arsath-Chester-Rebeiro-IIT-Madras(2).pdf)
@@ -11,7 +21,7 @@ This work proposes a framework for evaluating data-leaks on SHAKTI C-Class (a RI
 Tags: Power Side-channel, Microprocessor Security, Leakage Estimation
 </p>
 <iframe width="450px" height="300px" src="https://www.youtube.com/embed/3oYC9le-jAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<br>
 ---
 [Bifrost: Covert Data Exfiltration from an Air-gapped Network via Smart Bulbs](/pdf/sample_presentation.pdf)
 <p style="font-size:13px">  
@@ -20,12 +30,9 @@ Tags: Covert Channel, Smart Bulb Reverse Engineering, Image processing, NLP Erro
 </p>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
 
-### Category Name 2
+### Coursework
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
