@@ -6,7 +6,7 @@
 
 [Framework for Comprehensive Side-channel Evaluation of a Microprocessor](/pdf/1000-19.07.18-Muhammad-Arsath-Chester-Rebeiro-IIT-Madras(2).pdf)
 <p style="font-size:11px">  
-This work proposes a framework for evaluating data-leaks on SHAKTI C-Class (a RISC-V based microprocessor) through power-consumption side-channels. The work provides a comprehensive analysis of various metrics and techniques that have been proposed in literature to analyze data leaks due to such side-channels. The evaluation is done using a novel framework based on a Hamming Distance metric for modeling power patterns on binary data. The work further explores the cause of such data leaks and identifies architectural designs and practices which lead to such data leakages in the context of SHAKTI C-Class processor.
+This work proposes a framework for evaluating data-leaks on SHAKTI C-Class (a RISC-V based microprocessor) through power-consumption side-channels. The work provides a comprehensive analysis of various metrics and techniques that have been proposed in literature to analyze data leaks due to such side-channels. The evaluation is done using a novel framework based on a Hamming Distance metric for modeling power patterns on binary data. The work further explores the cause of such data leaks and identifies architectural designs and practices which lead to such data leakages in the context of SHAKTI C-Class processor.<br>
 Tags: Power Side-channel, Microprocessor Security, Leakage Estimation
 </p>
 <div width="560px" height="315px" style="position: static; clear: both; width: 560px; height: 315px;">&nbsp;<div style="position: relative"><img id="vidimg" width="560px" height="315px" src="" style="position: absolute; top: 0; left: 0; cursor: pointer; pointer-events: none; z-index: 2;" /><iframe id="unlocked-video" style="position: absolute; top: 0; left: 0; z-index: 1;" src="https://www.youtube.com/embed/3oYC9le-jAc" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></div>
@@ -24,8 +24,11 @@ Tags: Power Side-channel, Microprocessor Security, Leakage Estimation
 <!--img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Bifrost: Covert Data Exfiltration from an Air-gapped Network via Smart Bulbs](/pdf/sample_presentation.pdf)
+<p style="font-size:11px">  
+This work proposes a framework for evaluating data-leaks on SHAKTI C-Class (a RISC-V based microprocessor) through power-consumption side-channels. The work provides a comprehensive analysis of various metrics and techniques that have been proposed in literature to analyze data leaks due to such side-channels. The evaluation is done using a novel framework based on a Hamming Distance metric for modeling power patterns on binary data. The work further explores the cause of such data leaks and identifies architectural designs and practices which lead to such data leakages in the context of SHAKTI C-Class processor.<br>
+Tags: Power Side-channel, Microprocessor Security, Leakage Estimation
+</p>
 
 ---
 [Project 3 Title](http://example.com/)
