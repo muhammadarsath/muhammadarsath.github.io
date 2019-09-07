@@ -1,9 +1,12 @@
 title: Muhammad Arsath K F # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Research Scholar at Indian Institute of Technology, Madras
   <br><br>
-  Second description 
+  I am pursuing M.S (by Research) in the area of Hardware Security at IIT-Madras. 
+  My research focus is on power based side-channel analysis of Microprocessor. 
+  It varies from identifying information leaking modules in a general purpose processor 
+  to provide security to mitigate against power based side-channels. 
   <br><br>
   <a href="https://www.linkedin.com/in/muhammadarsath/">View My LinkedIn Profile</a> 
   
