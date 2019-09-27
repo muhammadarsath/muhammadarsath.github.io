@@ -7,7 +7,6 @@
 - Power Side-channel Analysis
 - Learning Algorithms
 
-
 --- 
 
 ### Education
