@@ -17,46 +17,40 @@
 
 ### Publications
 1.PARAM: A Microprocessor Hardened for Power Side-Channel Attack Resistance (HOST2020-Accepted)
-<html>
+<html lang="en">
 <head>
- <script type="text/javascript">
-function moreInformation(){
-    document.getElementById("more-information").style.display = "block";                    
-}
-function evenMoreInformation(){
-    document.getElementById("even-more-information").style.display = "block";                   
-}
-function lessInformation(){
-    document.getElementById("more-information").style.display = "none";                 
-    document.getElementById("even-more-information").style.display = "none";                    
-}
+<meta charset="utf-8">
+<title>jQuery Add Read More Link</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+$(document).ready(function(){
+    var maxLength = 300;
+    $(".show-read-more").each(function(){
+        var myStr = $(this).text();
+        if($.trim(myStr).length > maxLength){
+            var newStr = myStr.substring(0, maxLength);
+            var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
+            $(this).empty().html(newStr);
+            $(this).append(' <a href="javascript:void(0);" class="read-more">read more...</a>');
+            $(this).append('<span class="more-text">' + removedStr + '</span>');
+        }
+    });
+    $(".read-more").click(function(){
+        $(this).siblings(".more-text").contents().unwrap();
+        $(this).remove();
+    });
+});
 </script>
+<style>
+    .show-read-more .more-text{
+        display: none;
+    }
+</style>
 </head>
-<body>
-  <div id="more-information" style="display:none">
-  This is some text and continues for ages...
-<a onClick="moreInformation()" style="text-decoration:underline;cursor:pointer;">More information</a><br>
-<br>
-
-This is some text and continues for ages...<br>
-and it goes on and on and on...<br>
-<a onClick="evenMoreInformation()" style="text-decoration:underline;cursor:pointer;">Even more information</a>
-</div>
-<br>
-<div id="even-more-information" style="display:none">
-This is some text and continues for ages...<br>
-and it goes on and on and on...<br>
-but not as long as you think.<br>
-<a onClick="lessInformation()" style="text-decoration:underline;cursor:pointer;">Less information</a>
-</div>
-  
-  <div id="module" class="container">  
-  <p class="collapse" id="collapseExample" aria-expanded="false">
-     The power consumption of a microprocessor is a huge channel for information leakage. While the most popular exploitation of this channel is to recover cryptographic keys from embedded devices, other applications such as mobile app fingerprinting, reverse engineering of firmware, and password recovery are fast growing threats. Countermeasures proposed so far are tuned to specific applications, such as crypto-implementations. They are not scalable to the large number and variety of applications that typically run on a general purpose microprocessor. We investigate the design of a microprocessor, called PARAM with increased resistance to power based side-channel attacks. To design PARAM, we start with identifying the most leaking modules in an open-source RISC V processor. We evaluate the leakage in these modules and then add suitable countermeasures. The countermeasures depend on the cause of leakage in each module and can vary from simple modifications of the HDL code ensuring secure translation by the EDA tools, to obfuscating data and address lines thus breaking correlation with the processor's power consumption. The resultant processor is instantiated on the SASEBO-GIII FPGA board and found to resist Differential Power Analysis even after one million power traces. Compared to contemporary countermeasures for power side-channel attacks, overheads in area and frequency are minimal.
-  </p>
-  <a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></a>
-</div>
-
+<body>    
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <p class="show-read-more">This is a very long paragraph...</p>
 </body>
 </html>
 
