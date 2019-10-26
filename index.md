@@ -27,12 +27,53 @@
 <style>
 #more {display: none;}
 </style>
+ <style>
+ #parent {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#parent p.collapse:not(.show) {
+    height: 42px !important;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}
+
+#parent p {
+    min-height: 42px !important;
+}
+
+#parent a.collapsed:after  {
+    content: 'Read More';
+}
+
+#parent a:not(.collapsed):after {
+    content: 'Read Less';
+}
+ </style>
 </head>
 <body>
 
 <h2>Read More Read Less Button</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
 <button onclick="myFunction()" id="myBtn">Read more</button>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <div id="parent">
+        <p class="collapse" id="collapseParent">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor maximus laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Suspendisse venenatis sollicitudin erat in gravida. Sed eget nisl tristique, commodo lectus sit amet, vulputate sem. Cras porttitor lorem ipsum, sit amet iaculis massa feugiat vitae. Curabitur sapien odio, ullamcorper tincidunt interdum vitae, vestibulum eu neque. Nam leo massa, fringilla eget mauris feugiat, auctor suscipit justo.
+        </p>
+        <a class="collapsed" data-toggle="collapse" href="#collapseParent" aria-expanded="false" aria-controls="collapseParent"></a>
+      </div>
+      
+    </div>
+    
+  </div>
 
 <script>
 function myFunction() {
