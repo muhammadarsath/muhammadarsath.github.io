@@ -104,9 +104,8 @@ function myFunction2() {
 <p style="font-size:13px">Proposed an attack model to transfer the information from an air-gapped network to an outside world through smart bulbs using Bluetooth communication in a smart home<span id="dots3">...</span>
   <span id="more3"> or smart office setup. Developed an end-to-end application uses the android platform to transmit the data from sender side and the receiver can be a light sensor or a webcam that monitor the bulb from distance to decode the information by varying colors or intensity of the light bulb. It uses ASCII encoding/decoding, support synchronization of data, it uses Word2Vec tool for predicting missing words in the message. Effects such as noise intrusion and the attacker distance are studied.</span>
   <a href="javascript:myFunction3()" id="myBtn3"> More >></a>
-  <br><br>
+  <br>
   </p>
-
 <script>
 function myFunction3() {
   var dots = document.getElementById("dots3");
