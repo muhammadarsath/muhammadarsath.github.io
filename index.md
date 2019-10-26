@@ -67,10 +67,8 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor maximus laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Suspendisse venenatis sollicitudin erat in gravida. Sed eget nisl tristique, commodo lectus sit amet, vulputate sem. Cras porttitor lorem ipsum, sit amet iaculis massa feugiat vitae. Curabitur sapien odio, ullamcorper tincidunt interdum vitae, vestibulum eu neque. Nam leo massa, fringilla eget mauris feugiat, auctor suscipit justo.
         </p>
         <a class="collapsed" data-toggle="collapse" href="#collapseParent" aria-expanded="false" aria-controls="collapseParent"></a>
-      </div>
-      
-    </div>
-    
+      </div>      
+    </div>    
   </div>
 
 <script>
