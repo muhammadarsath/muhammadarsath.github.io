@@ -66,7 +66,7 @@ function myFunction() {
 <body>
 <p style="font-size:13px">This work proposes a framework for evaluating data-leaks on SHAKTI C-Class (a RISC-V based microprocessor) through power-consumption side-channels. The work <span id="dots">...</span>
   <span id="more"> provides a comprehensive analysis of various metrics and techniques that have been proposed in literature to analyze data leaks due to such side-channels. The evaluation is done using a novel framework based on a Hamming Distance metric for modeling power patterns on binary data. The work further explores the cause of such data leaks and identifies architectural designs and practices which lead to such data leakages in the context of SHAKTI C-Class processor.</span>
-  <a href="javascript:myFunction()" id="myBtn">Show More >></a>
+  <a href="javascript:myFunction()" id="myBtn2">Show More >></a>
   <br>
   </p>
 
@@ -74,7 +74,7 @@ function myFunction() {
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  var btnText = document.getElementById("myBtn2");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
