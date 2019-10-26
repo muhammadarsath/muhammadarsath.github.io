@@ -26,8 +26,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 #more {display: none;}
-</style>
- <style>
+
  #parent {
   font-size: 14px;
   line-height: 1.5;
