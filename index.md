@@ -127,7 +127,7 @@ function myFunction() {
 </script>
 </body>
 </html>  
-Tags: Covert Channel, Smart Bulb Reverse Engineering, Image processing, NLP Error Correction
+<p style="font-size:13px">Tags: Covert Channel, Smart Bulb Reverse Engineering, Image processing, NLP Error Correction
 </p>
 
 ---
