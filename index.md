@@ -60,7 +60,7 @@ function myFunction() {
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-#more {display: none;}
+#more2 {display: none;}
 </style>
 </head>
 <body>
@@ -98,21 +98,21 @@ function myFunction() {
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-#more {display: none;}
+#more3 {display: none;}
 </style>
 </head>
 <body>
-<p style="font-size:13px">Proposed an attack model to transfer the information from an air-gapped network to an outside world through smart bulbs using Bluetooth communication in a smart home<span id="dots2">...</span>
-  <span id="more2"> or smart office setup. Developed an end-to-end application uses the android platform to transmit the data from sender side and the receiver can be a light sensor or a webcam that monitor the bulb from distance to decode the information by varying colors or intensity of the light bulb. It uses ASCII encoding/decoding, support synchronization of data, it uses Word2Vec tool for predicting missing words in the message. Effects such as noise intrusion and the attacker distance are studied.</span>
-  <a href="javascript:myFunction()" id="myBtn2">Show More >></a>
+<p style="font-size:13px">Proposed an attack model to transfer the information from an air-gapped network to an outside world through smart bulbs using Bluetooth communication in a smart home<span id="dots3">...</span>
+  <span id="more3"> or smart office setup. Developed an end-to-end application uses the android platform to transmit the data from sender side and the receiver can be a light sensor or a webcam that monitor the bulb from distance to decode the information by varying colors or intensity of the light bulb. It uses ASCII encoding/decoding, support synchronization of data, it uses Word2Vec tool for predicting missing words in the message. Effects such as noise intrusion and the attacker distance are studied.</span>
+  <a href="javascript:myFunction()" id="myBtn3">Show More >></a>
   <br><br>
   </p>
 
 <script>
 function myFunction() {
-  var dots = document.getElementById("dots2");
-  var moreText = document.getElementById("more2");
-  var btnText = document.getElementById("myBtn2");
+  var dots = document.getElementById("dots3");
+  var moreText = document.getElementById("more3");
+  var btnText = document.getElementById("myBtn3");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
