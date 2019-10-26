@@ -66,12 +66,12 @@ function myFunction() {
 <body>
 <p style="font-size:13px">This work proposes a framework for evaluating data-leaks on SHAKTI C-Class (a RISC-V based microprocessor) through power-consumption side-channels. The work <span id="dots2">...</span>
   <span id="more2"> provides a comprehensive analysis of various metrics and techniques that have been proposed in literature to analyze data leaks due to such side-channels. The evaluation is done using a novel framework based on a Hamming Distance metric for modeling power patterns on binary data. The work further explores the cause of such data leaks and identifies architectural designs and practices which lead to such data leakages in the context of SHAKTI C-Class processor.</span>
-  <a href="javascript:myFunction()" id="myBtn2">Show More >></a>
+  <a href="javascript:myFunction2()" id="myBtn2">Show More >></a>
   <br>
   </p>
 
 <script>
-function myFunction() {
+function myFunction2() {
   var dots = document.getElementById("dots2");
   var moreText = document.getElementById("more2");
   var btnText = document.getElementById("myBtn2");
@@ -104,12 +104,12 @@ function myFunction() {
 <body>
 <p style="font-size:13px">Proposed an attack model to transfer the information from an air-gapped network to an outside world through smart bulbs using Bluetooth communication in a smart home<span id="dots3">...</span>
   <span id="more3"> or smart office setup. Developed an end-to-end application uses the android platform to transmit the data from sender side and the receiver can be a light sensor or a webcam that monitor the bulb from distance to decode the information by varying colors or intensity of the light bulb. It uses ASCII encoding/decoding, support synchronization of data, it uses Word2Vec tool for predicting missing words in the message. Effects such as noise intrusion and the attacker distance are studied.</span>
-  <a href="javascript:myFunction()" id="myBtn3">Show More >></a>
+  <a href="javascript:myFunction3()" id="myBtn3">Show More >></a>
   <br><br>
   </p>
 
 <script>
-function myFunction() {
+function myFunction3() {
   var dots = document.getElementById("dots3");
   var moreText = document.getElementById("more3");
   var btnText = document.getElementById("myBtn3");
