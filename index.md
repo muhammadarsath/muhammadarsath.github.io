@@ -19,27 +19,6 @@
 1.PARAM: A Microprocessor Hardened for Power Side-Channel Attack Resistance (HOST2020-Accepted)
 <html>
 <head>
-<style>
-#module {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-#module #collapseExample.collapse:not(.show) {
-  display: block;
-  height: 3rem;
-  overflow: hidden;
-}
-#module #collapseExample.collapsing {
-  height: 3rem;
-}
-#module a.collapsed::after {
-  content: '+ Show More';
-}
-#module a:not(.collapsed)::after {
-  content: '- Show Less';
-}
- </style>
  <script type="text/javascript">
 function moreInformation(){
     document.getElementById("more-information").style.display = "block";                    
@@ -54,10 +33,11 @@ function lessInformation(){
 </script>
 </head>
 <body>
+  <div id="more-information" style="display:none">
   This is some text and continues for ages...
 <a onClick="moreInformation()" style="text-decoration:underline;cursor:pointer;">More information</a><br>
 <br>
-<div id="more-information" style="display:none">
+
 This is some text and continues for ages...<br>
 and it goes on and on and on...<br>
 <a onClick="evenMoreInformation()" style="text-decoration:underline;cursor:pointer;">Even more information</a>
