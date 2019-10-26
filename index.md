@@ -49,8 +49,7 @@ function myFunction() {
 </script>
 
 </body>
-</html>                    
-
+</html>                 
 
 ---
 
@@ -91,7 +90,7 @@ function myFunction2() {
 </html>  
 
 <iframe width="450px" height="300px" src="https://www.youtube.com/embed/3oYC9le-jAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p style="font-size:13px">Tags: Power Side-channel, Microprocessor Security, Leakage Estimation </p><br>
+<p style="font-size:13px">Tags: Power Side-channel, Microprocessor Security, Leakage Estimation </p>
 
 2.[Bifrost: Covert Data Exfiltration from an Air-gapped Network via Smart Bulbs](/pdf/final_csaw.pdf)
 <html>
