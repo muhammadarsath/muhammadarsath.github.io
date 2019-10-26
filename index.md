@@ -16,7 +16,6 @@
 --- 
 
 ### Publications
-1.PARAM: A Microprocessor Hardened for Power Side-Channel Attack Resistance (HOST2020-Accepted)
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,9 +24,8 @@
 </style>
 </head>
 <body>
-
-<h2>Read More Read Less Button</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+<h3>1.PARAM: A Microprocessor Hardened for Power Side-Channel Attack Resistance (HOST2020-Accepted)</h3>
+<p style="font-size:13px">The power consumption of a microprocessor is a huge channel for information leakage. While the most popular exploitation of this channel is to recover cryptographic keys from embedded devices,<span id="dots">...</span><span id="more"> other applications such as mobile app fingerprinting, reverse engineering of firmware, and password recovery are fast growing threats. Countermeasures proposed so far are tuned to specific applications, such as crypto-implementations. They are not scalable to the large number and variety of applications that typically run on a general purpose microprocessor. We investigate the design of a microprocessor, called PARAM with increased resistance to power based side-channel attacks. To design PARAM, we start with identifying the most leaking modules in an open-source RISC V processor. We evaluate the leakage in these modules and then add suitable countermeasures. The countermeasures depend on the cause of leakage in each module and can vary from simple modifications of the HDL code ensuring secure translation by the EDA tools, to obfuscating data and address lines thus breaking correlation with the processor's power consumption. The resultant processor is instantiated on the SASEBO-GIII FPGA board and found to resist Differential Power Analysis even after one million power traces. Compared to contemporary countermeasures for power side-channel attacks, overheads in area and frequency are minimal.</span></p>
 <a href="javascript:myFunction()" id="myBtn">Read More >></a>
 
 <script>
@@ -38,11 +36,11 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
+    btnText.innerHTML = "Read more >>"; 
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
+    btnText.innerHTML = "Read less <<"; 
     moreText.style.display = "inline";
   }
 }
