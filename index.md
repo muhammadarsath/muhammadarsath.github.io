@@ -13,7 +13,7 @@
 - M.S (by Research) at Indian Institute of Technology Madras
 - B.E (CSE) at Sri Krishna College of Engineering and Technology, Coimbatore
 
---- 
+---   
 
 ### Publications
 <html>
