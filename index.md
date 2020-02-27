@@ -7,7 +7,7 @@
 - Power Side-channel Analysis
 - Learning Algorithms
 
---- 
+---
 
 ### Education
 - M.S (by Research) at Indian Institute of Technology Madras
