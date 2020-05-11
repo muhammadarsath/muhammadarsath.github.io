@@ -131,4 +131,4 @@ function myFunction3() {
 ---
 ### Seminar
 <h4>PARAM: A Microprocessor Hardened for Power Side-Channel Attack Resistance</h4>
-<iframe width="450px" height="300px" src="https://drive.google.com/open?id=1QXZtA021_bscloJi7-WTCN2LQe3Of0Hp" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="450px" height="300px" src="https://drive.google.com/file/d/1QXZtA021_bscloJi7-WTCN2LQe3Of0Hp/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
