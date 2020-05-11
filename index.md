@@ -129,3 +129,5 @@ function myFunction3() {
 </p>
 
 ---
+### Seminar
+<h4>PARAM: A Microprocessor Hardened for Power Side-Channel Attack Resistance</h4>
