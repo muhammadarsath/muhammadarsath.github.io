@@ -89,7 +89,7 @@ function myFunction2() {
 </body>
 </html>  
 
-<iframe width="450px" height="300px" src="https://www.youtube.com/embed/3oYC9le-jAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="500px" height="300px" src="https://www.youtube.com/embed/3oYC9le-jAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p style="font-size:13px">Tags: Power Side-channel, Microprocessor Security, Leakage Estimation </p>
 
 2.[Bifrost: Covert Data Exfiltration from an Air-gapped Network via Smart Bulbs](/pdf/final_csaw.pdf)
@@ -131,4 +131,4 @@ function myFunction3() {
 ---
 ### Seminar
 <h4>PARAM: A Microprocessor Hardened for Power Side-Channel Attack Resistance</h4>
-<iframe width="450" height="300" src="https://www.youtube.com/embed/C-R-gIGzLRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/C-R-gIGzLRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
