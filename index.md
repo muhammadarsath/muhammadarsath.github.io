@@ -5,7 +5,8 @@
 
 ### Interests
 - Hardware Security
-- Power Side-channel Analysis
+- Differential Power Analysis
+- Computer Architecture
 - Machine Learning
 - Deep Learning
 - Pattern Recognition
