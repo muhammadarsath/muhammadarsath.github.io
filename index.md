@@ -1,4 +1,5 @@
 ## Portfolio
+  I am pursuing M.S (by Research) in the area of Hardware Security at IIT-Madras. My research focus on power based side-channel analysis of Microprocessor. It varies from identifying information leaking modules in a general purpose processor to provide security to mitigate against power side-channel attacks. 
 
 ---
 
