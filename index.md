@@ -1,5 +1,5 @@
 ## Portfolio
-  I am pursuing M.S (by Research) in the area of Hardware Security at IIT-Madras. My research focus on evaluating side-channel resistance of a processor. It involves identifying information leaking modules and mitigating the leakages based on the nature of leakages to provide security against power side-channel attacks. It covers the holistic approach of identifying hotspots, fixing, and ensuring its efffectiveness against the Differential Power Analysis (DPA).
+  I am pursuing M.S (by Research) in the area of Hardware Security at IIT-Madras. My research focus on evaluating side-channel resistance of a processor. It involves identifying information leaking modules and mitigating the leakages based on the nature of leakages to provide security against power side-channel attacks. It covers the holistic approach of identifying hotspots, fixing, and ensuring its effectiveness against the Differential Power Analysis (DPA).
 
 ---
 
@@ -14,7 +14,7 @@
 ---
 
 ### Education
-- M.S (by Research) in Computer Scinecne and Engg. at Indian Institute of Technology, Madras
+- M.S (by Research) in Computer Science and Engg. at Indian Institute of Technology, Madras
 - B.E (CSE) at Sri Krishna College of Engineering and Technology, Coimbatore
 
 ---   
